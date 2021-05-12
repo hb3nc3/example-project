@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Main {
 
-    public void printSomething() {
+    public static void printSomething() {
         System.out.println("Hello World");
     }
 
@@ -15,6 +15,7 @@ public class Main {
         Map<Integer,TestModel> testMap = new HashMap();
         testMap.put(12, new TestModel());
         models.add(model);
+        printSomething();
         model.x = 5;
         int[] array = {11,12,13,14,15};
         Integer[] arr2 = null;
