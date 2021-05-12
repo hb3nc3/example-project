@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'io.github.hb3nc3'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.9
+
+application {
+    mainClassName = "io.github.hb3nc3.Main"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
